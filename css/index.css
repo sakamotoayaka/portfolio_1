@@ -1,0 +1,927 @@
+  /* スクロールバー */
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+  }
+
+@media screen and (min-width: 769px) { 
+  /* PC */
+  body{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  /* header */
+  .p-header__top{ 
+    height: 6vw;
+    background: #88CEB9B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .p-header__logoLeft{
+    margin-top: 10px;
+  }
+
+  .c-nav__list{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+  }
+
+  .p-nav__listItem{
+    list-style: none;
+    margin-left: 40px;
+    font-family: "Zen Maru Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .p-header__logoRight{
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  /*  kv画像 */
+  .c-kv__bg{
+    position: relative;
+    z-index: 1;
+  }
+
+  .p-kv__bg{
+    width: 100%;
+    height: 100%;
+    background: url(/images/index-top_img.png) no-repeat center / cover;
+  }
+
+  /* header画像フェードイン */
+  .fade-in{
+    animation: fadein 4s ease-out forwards;
+  }
+
+  @keyframes fadein {
+    0% {
+       opacity: 0
+    }
+    100% {
+       opacity: 1
+    }
+  }
+
+
+  /* header 大きいタイトル */
+  .p-kv__title1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 37%;
+    z-index: 3;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 84px;
+    font-weight: 900;
+    text-align: left;
+    align-self: flex-end;
+    margin: 0 0;
+    white-space: nowrap;
+    width: 70%;
+    display: flex;
+  }
+
+  .p-kv__title2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 37%;
+    z-index: 3;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 84px;
+    font-weight: 900;
+    text-align: left;
+    align-self: flex-end;
+    margin: 0 0;
+    white-space: nowrap;
+    width: 70%;
+    display: flex;
+  }
+
+
+  /* 1文字ずつ浮かび上がるアニメーション */
+  .p-kv__title1 p,.p-kv__title2 p{
+    opacity: 0;
+    animation: textanimation 1s forwards;
+    margin: 0 0;
+  }
+
+  /* 1文字目 */
+  .p-kv__title1 p:nth-child(1){
+    animation-delay: 0.2s
+  }
+  /* 2文字目 */
+  .p-kv__title1 p:nth-child(2) {
+    animation-delay: 0.4s
+  }
+  /* 3文字目 */
+  .p-kv__title1 p:nth-child(3) {
+    animation-delay: 0.6s
+  }
+  /* 4文字目 */
+  .p-kv__title1 p:nth-child(4) {
+    animation-delay: 0.8s
+  }
+  /* 5文字目 */
+  .p-kv__title1 p:nth-child(5) {
+    animation-delay: 1s
+  }
+  /* 6文字目 */
+  .p-kv__title1 p:nth-child(6) {
+    animation-delay: 1.2s
+  }
+  /* 7文字目 */
+  .p-kv__title1 p:nth-child(7) {
+    animation-delay: 1.4s
+  }
+  /* 8文字目 */
+  .p-kv__title1 p:nth-child(8) {
+    animation-delay: 1.6s
+  }
+  /* 9文字目 */
+  .p-kv__title1 p:nth-child(9) {
+    animation-delay: 1.8s
+  }
+  /* 10文字目 */
+  .p-kv__title1 p:nth-child(10) {
+    animation-delay: 2s
+  }
+  /* 11文字目 */
+  .p-kv__title2 p:nth-child(1) {
+    animation-delay: 2.2s
+  }
+  /* 12文字目 */
+  .p-kv__title2 p:nth-child(2) {
+    animation-delay: 2.4s
+  }
+  /* 13文字目 */
+  .p-kv__title2 p:nth-child(3) {
+    animation-delay: 2.6s
+  }
+  /* 14文字目 */
+  .p-kv__title2 p:nth-child(4) {
+    animation-delay: 2.8s
+  }
+  /* 15文字目 */
+  .p-kv__title2 p:nth-child(5) {
+    animation-delay: 3.0s
+  }
+  /* 16文字目 */
+  .p-kv__title2 p:nth-child(6) {
+    animation-delay: 3.2s
+  }
+  /* 17文字目 */
+  .p-kv__title2 p:nth-child(7) {
+    animation-delay: 3.4s
+  }
+  /* 18文字目 */
+  .p-kv__title2 p:nth-child(8) {
+    animation-delay: 3.6s
+  }
+  /* 19文字目 */
+  .p-kv__title2 p:nth-child(9) {
+    animation-delay: 3.8s
+  }
+  /* 20文字目 */
+  .p-kv__title2 p:nth-child(10) {
+    animation-delay: 4.0s
+  }
+  /* 21文字目 */
+  .p-kv__title2 p:nth-child(11) {
+    animation-delay: 4.2s
+  }
+  /* 22文字目 */
+  .p-kv__title2 p:nth-child(12) {
+    animation-delay: 4.6s
+  }
+
+  @keyframes textanimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* header右下のかたまり */
+  .p-kv__section__category{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 87%;
+    z-index: 3;
+    white-space: nowrap;
+    width: 25vw;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px 10px 20px 10px;
+    width: 26%;
+  }
+  
+  /* header タイトル 現在募集中の... */
+  .p-kv__section__categoryTitle{
+    color: #7A7A7A;  
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 23px;
+    font-weight: 700;
+    margin: 20px 0 0 60px;
+  }
+
+  .u-categoryText{
+    color: #7A7A7A;  
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin: 5px 0 0 0;
+    text-align: left;
+    margin-left: 90px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  /* エントリーフォーム */
+  .c-btn{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding: 10px 24px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    background: #88CEB9;
+    margin: 7px 0 0 90px;
+  }
+
+  /* 白い採用ボタン */
+  .c-recruitment__btn{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 87%;
+    background-color: #FFFFFF;
+    color: #88CEB9;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    white-space: nowrap;
+    padding: 8px 43px;
+    border-radius: 20px;
+    z-index: 5;
+  }
+
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .sticky p{
+    color: #FFFFFF;
+    background: rgba(136, 206, 185, 1);
+    width: 30px;
+    font-size: 28px;
+    letter-spacing: 0;
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+    margin: 0 0;
+  }
+
+   /* section1 */
+  .c-about-section1{
+    margin-top: -250px;
+    display: flex;
+    align-items: top;
+    justify-content: flex-start;
+    padding-bottom: 70px;
+    padding: 90px 0 60px 0;
+    width: 100%;
+    gap: 100px;
+  }
+
+  .p-about-section__img1{
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ピンクの装飾 */
+  .pink-square1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 48%;
+    left: 100%;
+    z-index: 2;
+    width: 57px;
+    height: 50px;
+    background: #F0A0C7;
+  }
+
+  .p-index_img1{
+     border-radius: 0 28px 28px 0;
+     margin: 0 0;
+     width: 100%;
+  }
+
+  /* 画像右 コンテナ */
+  .p-about-section__content1{
+    width: 40%;
+    height: 21%;
+    padding: 0 0;
+  }
+ 
+  /* 画像右 グレーテキスト */
+  .p-about-section__copy1{
+    font-family: 'Zen Maru Gothic';
+    color: #7A7A7A;
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin: 70px 0 0;
+  }
+
+  /* ブルーの下線 */
+  .blue-line{
+    width: 60px;
+    height: 6px;
+    background-color: #008FA0;
+    margin: 20px 0 0 200px;
+  }
+
+  /* サンプル文章 */
+  .p-about-section__copyText1 > p{
+    color: #7A7A7A;
+    font-size: 24px;
+    margin: 50px 0 80px 0;
+    width: 90%;
+  }
+
+  .picto__list{
+    padding: 0 0;
+    margin: 0 0;
+    width: 90%;
+  }
+
+  .picto__item{
+    list-style: none;
+  }
+
+  .c-togle-btn__wrap{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: rgba(0, 143, 160, 0.7);
+  }
+  
+  /* 画像横 青字 */
+  .c-togle-btn__text{
+    font-family: Zen Maru Gothic;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 75px;
+    text-align: left;
+    align-items: center;
+    color: rgba(0, 143, 160, 0.7);
+    margin: 0 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+    width: 90%;
+    white-space: nowrap;
+  }
+
+  .c-togle-btn__text:hover{
+    color: #008FA0;
+  }
+
+  .c-toggle-btn__icon{
+    position: relative;
+    z-index: var(--z-20);
+    flex-shrink: 0;
+    width: 64px;
+    height: 0.3125rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .c-toggle-btn__icon::before {
+    position: absolute;
+    top: -50%;
+    left: 0%;
+    z-index: var(--z-10);
+    width: 16%;
+    height: 200%;
+    background-color: var(--theme-color, #8DC2C8);
+    border-radius: 50px;
+    transform: translateX(5px);
+    transition: transform 200ms var(--ease-out-cubic), background-color 200ms var(--ease-out-cubic);
+    content: "";
+    will-change: transform;
+  }
+
+  .c-toggle-btn__icon:hover::before{
+    animation: progress 0.5s normal;
+  }
+
+  @keyframes progress {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: 70%;
+    }
+  }
+
+  /* section2 */
+  .c-about-section2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #88CEB91A;
+    gap: 90px;
+    width: 100%;
+    padding: 60px 0 150px 0;
+  }
+
+  /* 画像左 コンテナ */
+  .p-about-section__content2{
+    width: 40%;
+  }
+
+  .p-about-section__img2{
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ピンクの装飾 */
+  .pink-square2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 48%;
+    left: 0%;
+    z-index: 2;
+    width: 57px;
+    height: 50px;
+    background: #F0A0C7;
+  }
+
+  .p-index_img2{
+    width: 100%;
+    border-radius: 28px 0 0 28px;
+  }
+
+
+  /* 画像左 グレーテキスト */
+  .p-about-section__copy2{
+    font-family: 'Zen Maru Gothic';
+    color: #7A7A7A;
+    font-size: 40px;
+    margin: 30px 0 0 0;
+  }
+
+  /* サンプル文章 */
+  .p-about-section__copyText2 > p{
+    color: #7A7A7A;
+    font-size: 24px;  
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin: 35px 0 35px 0;
+  }
+
+  .sp-picto__item,.sp-c-togle-btn__wrap,
+  .sp-c-togle-btn__text,.sp-c-toggle-btn__icon,
+  .sp-p-index_img01,.sp-p-index_img02,.sp-p-index_img2,
+  .sp-back-green__img,.sp-p-kv__bg,
+  .sp-p-index_img1,.sp-p-about-section__copyText1,
+  .hamburger,.menu,.sp-nav{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  /* SP */
+  body{
+    max-width: 768px;
+    margin: 0 auto
+  }
+
+  .p-header__nav,.p-header__logoRight,
+  .p-kv__bg,.p-kv__title,.back-green__img,
+  .p-index_img1,.p-index_img2,.picto__item,
+  .p-about-section__copyText1,
+  .p-kv__title1,.p-kv__title2{
+    display: none;
+  }
+
+  .c-about-section1{
+    margin-top: -350px;
+  }
+
+  /* header */
+  /* ベースの画像 */
+  .sp-p-kv__bg{
+    width: 100%;
+  }
+
+  .c-kv__bg{
+    width: 100%;
+    /* height: 30%; */
+    position: relative;
+    z-index: 1;  
+  }
+
+  /* awesome左ロゴ */
+  .c-awesome__logo{
+    width: 130%;
+    padding-left: 30px;
+  }
+
+  /* header上部の帯 */
+  .p-header__top{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 15%;
+    z-index: 3;
+  }
+
+  /* ハンバーガーメニュー */
+  .hamburger {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    height: 40px;
+    cursor: grab;
+    z-index: 3;
+  }
+  
+  .hamburger__line {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 5px;
+    right: 0;
+    border-radius: 2.5px;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+  }
+  
+  .hamburger__line--1 {
+    top: 1px;
+  }
+
+  .hamburger__line--2 {
+    top: 16px;
+  }
+
+  .hamburger__line--3 {
+    top: 32px;
+  }
+
+  /*ハンバーガーがクリックされたら*/
+  .open .hamburger__line--1 {
+    transform: rotate(-45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .open .hamburger__line--2 {
+    opacity: 0;
+  }
+
+  .open .hamburger__line--3 {
+    transform: rotate(45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .menu{
+    color: #FFFFFF;
+    margin: 40px 25px 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .sp-nav {
+    position: fixed;
+    left: -100%;
+    /*ハンバーガーがクリックされる前はWindow左側に隠す*/
+    top: 12%;
+    width: 78%;
+    /* 出てくるスライドメニューの幅 */
+    height: 100vh;
+    background-color: #88CEB9;
+    transition: all 0.5s;
+    z-index: 100;
+    overflow-y: auto;
+    /* メニューが多くなったらスクロールできるように */
+  }
+  
+  /*ハンバーガーがクリックされたら左からスライド*/
+  .open .sp-nav {
+    left: 0;
+  }
+
+  ul{
+    margin-left: 50px;
+    list-style: none;
+  }
+
+  .list-item{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .online-shop > p{
+    margin: 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .online-shop{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .bag-img{
+    width: 5%;
+    margin: 0 20px 0 0;
+  }
+
+  .entry-form{
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #88CEB9;
+    background-color: #FFFFFF;
+    padding: 8px 10px;
+    text-align: center;
+    width: 30%;
+    margin-top: 35px;
+  }
+
+
+  /* header下のかたまり */
+  .p-kv__section__category{
+    background: rgba(233, 233, 233, 0.5);
+    padding: 60px 0 40px 0;
+    margin: 40px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* header タイトル 現在募集中の... */
+  .p-kv__section__categoryTitle{
+    color: #7A7A7A;  
+    font-size: 22px;
+    letter-spacing: 10px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 0 -70px;
+  }
+
+  /* 看護師・受付スタッフ */
+  .u-categoryText{
+    color: #7A7A7A;  
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    line-height: 30px;
+    margin: 5px 0 0 0;
+    text-align: left;
+    margin: 25px 0 0 200px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  /* エントリーフォーム */
+  .c-btn{
+    font-size: 22px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 70px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    background: #88CEB9;
+    margin: 30px 0 0 0;
+  }
+
+  /* 緑の採用ボタン */
+  .c-recruitment__btn{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 84%;
+    left: 50%;
+    color: #FFFFFF;
+    background-color: #88CEB9;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.5em;
+    white-space: nowrap;
+    width: 75%;
+    padding: 12px 0px;
+    border-radius: 25px;
+    z-index: 5;
+    text-align: center;
+  }
+
+  .sp-p-index_img1{
+    width: 95%;
+  }
+
+  .sp-p-about-section__img1{
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ピンクの装飾 */
+  .sp-pink-square1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 42%;
+    left: 95%;
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    background: #F0A0C7;
+  }
+
+  .sp-p-index_img2{
+    width: 95%;
+  }
+  
+  .p-about-section__img2{
+    position: relative;
+    z-index: 1;
+    text-align: right;
+    margin-bottom: 150px;
+  }
+
+  /* ピンクの装飾 */
+  .pink-square2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 5%;
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    background: #F0A0C7;
+  }
+
+  /* content1 */
+  .p-about-section__content1,
+  .p-about-section__content2{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 110px;
+  }
+
+  .p-about-section__copy1{
+    font-family: 'Zen Maru Gothic';
+    color: #7A7A7A;
+    font-size: 48px;
+    margin: 0 0;
+    text-align: left;
+  }
+  
+  .p-about-section__copy2{
+    font-family: 'Zen Maru Gothic';
+    color: #7A7A7A;
+    font-size: 45px;
+    margin: 0 0;
+    text-align: center;
+  }
+
+  /* ブルーの下線 */
+  .blue-line{
+    width: 90px;
+    height: 8px;
+    background-color: #008FA0;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .sp-p-about-section__copyText1 > p{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 40px 0 0;
+  }
+
+  .p-about-section__copyText2 > p{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 40px 0 0;
+  }
+
+  .picto__list{
+    padding: 0 0;
+    margin: 80px 0;
+    width: 90%;
+  }
+
+  .sp-picto__item{
+    list-style: none;
+  }
+
+  .sp-c-togle-btn__wrap{
+    text-decoration: none;
+  }
+
+  /* 画像下 青字 */
+  .sp-c-togle-btn__text{
+    font-family: Zen Maru Gothic;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 85px;
+    text-align: left;
+    align-items: center;
+    color: rgba(0, 143, 160, 0.7);
+    border-bottom: 1px solid;
+    margin: 0 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+  }
+
+  .sp-c-togle-btn__text:hover{
+    color: #008FA0;
+  }
+
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    z-index: 10;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .sticky p{
+    color: #FFFFFF;
+    background: rgba(136, 206, 185, 1);
+    width: 30px;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+    margin: 0 0;
+  }
+
+}

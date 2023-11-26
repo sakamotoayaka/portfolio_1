@@ -1,0 +1,650 @@
+ /* ブルーの下線 */
+ .blue-line{
+  background-color: #008FA0;
+  width: 60px;
+  height: 6px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+@media screen and (min-width: 769px) {
+  /* PC */
+  body{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  /* header */
+  .p-header__top{ 
+    width: 100%;
+    height: 6vw;
+    background: rgba(136, 206, 185, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .p-header__logoLeft{
+    margin-top: 10px;
+  }
+
+  .c-nav__list{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    color: #FFFFFF;
+  }
+
+  .p-nav__listItem{
+    list-style: none;
+    margin-left: 40px;
+    font-family: "Zen Maru Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .p--header__logoRight{
+    display: flex;
+    margin-left: 50px;
+  }
+
+    /* header 画像 */
+  .c-kv__bg{
+    position: relative;
+    z-index: 1;  
+  }
+
+  .p-kv__bg{
+    width: 100%;
+  }
+
+  /* pcで非表示 */
+  .sp-p-kv__bg,.sp-job-img1,
+  .sp-job-img2,.sp-job-img3,.sp-c-section__title,
+  .hamburger,.menu,.sp-nav{
+    display: none;
+  }
+
+  /* header お仕事内容 */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 77%;
+    left: 50%;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+    padding:0 0;
+    z-index: 4;
+  }
+
+  /* header job */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 92%;
+    left: 50%;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0.8em;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 65%;
+    z-index: 4;
+  }
+
+  /* main */
+  .c-section__title{
+    position: relative;
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7A7A7A;
+    margin: auto;
+  }
+
+  .u-section__title{
+    margin: 0 0 0 0;
+  }
+
+  /* ピンクの四角 */
+  .pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -110%;
+    left: 51%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+  }
+
+  .c-section{
+    padding-top: 140px;
+  }
+
+  .c-title{
+    font-family: Zen Maru Gothic;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: left;
+    color: #7A7A7A;
+  }
+
+  /* 細いブルーの下線 */
+  .shortblue-line{
+    background-color: #008FA0;
+    width: 55px;
+    height: 6px;
+    margin-top: 10px;
+  }
+
+  /* 乗せられる側の画像 */
+  .large-img{
+    position: relative;
+    padding-top: 100px;
+  }
+
+  .job-img2{
+    justify-content: flex-end;
+  }
+
+  .job-img1,.job-img2{
+    width: 100%;
+  }
+
+  /* section1 位置調節 */
+  .c-contents__inner{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 35%;
+  }
+
+  /* section2 位置調節 */
+  .c-contents__inner__mid{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 47%;
+    left: 63%;
+  }
+
+  .c-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .c-colum-list{
+    margin: 20px 0 0 0;
+    padding: 0 30px 0 0;
+  }
+
+   /* section1 */
+  .c-colum-item{
+    font-family: Zen Maru Gothic;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: #7A7A7A;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-image: url("../images/check-icon.svg"); 
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  /* section2 */
+  .c-colum-item__mid{
+    font-family: Zen Maru Gothic;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 38px;
+    color: #008FA0;
+    list-style: none;
+    padding: 10px 0 10px 40px;
+    background-image: url("../images/check-icon.svg"); 
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: left;
+    white-space: nowrap;
+    margin-top: 10px;
+  }
+
+  /* section2 細いブルーの下線 */
+  .blue-thin__line{
+    background-color: #008FA0;
+    width: 360px;
+    height: 1px;
+  }
+
+  /* 最後の１文 */
+  .p-last-sentence{
+    font-family: Zen Maru Gothic;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 43px;
+    letter-spacing: 0em;
+    color: #545454;
+    margin: auto;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+
+  /* ラストのピンク四角 */
+  .pink-square__bottom{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+  }
+
+  .c-last-section{
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+  }
+ 
+  .job-img3{
+    display: block;
+    line-height: 1;
+  }
+
+  .sp-c-section__title1,.sp-c-section__title2,
+  .sp-p-last-sentence{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  /* SP */
+  body{
+    max-width: 768px;
+    margin: 0 auto
+  }
+
+  .p-header__nav,.p-header__logoRight,
+  .p-kv__bg,.job-img1,.job-img2,.job-img3{
+    display: none;
+  }
+
+  /* ベースの画像 */
+  .sp-p-kv__bg{
+    width: 100%;
+  }
+
+  .c-kv__bg{
+    width: 100%;
+    height: 98%;
+    position: relative;
+    z-index: 1;  
+  }
+
+  /* awesome左ロゴ */
+  .c-awesome__logo{
+    width: 150%;
+    padding-left: 40px;
+  }
+
+  /* header上部の帯 */
+  .p-header__top{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 15%;
+  }
+
+  /* ハンバーガーメニュー */
+  .hamburger {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    height: 40px;
+    cursor: grab;
+    z-index: 3;
+  }
+  
+  .hamburger__line {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 5px;
+    right: 0;
+    border-radius: 2.5px;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+  }
+  
+  .hamburger__line--1 {
+    top: 1px;
+  }
+
+  .hamburger__line--2 {
+    top: 16px;
+  }
+
+  .hamburger__line--3 {
+    top: 32px;
+  }
+
+  /*ハンバーガーがクリックされたら*/
+  .open .hamburger__line--1 {
+    transform: rotate(-45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .open .hamburger__line--2 {
+    opacity: 0;
+  }
+
+  .open .hamburger__line--3 {
+    transform: rotate(45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .menu{
+    color: #FFFFFF;
+    margin: 40px 25px 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .sp-nav {
+    position: fixed;
+    left: -100%;
+    /*ハンバーガーがクリックされる前はWindow左側に隠す*/
+    top: 14%;
+    width: 78%;
+    /* 出てくるスライドメニューの幅 */
+    height: 100vh;
+    background-color: #88CEB9;
+    transition: all 0.5s;
+    z-index: 100;
+    overflow-y: auto;
+    /* メニューが多くなったらスクロールできるように */
+  }
+  
+  /*ハンバーガーがクリックされたら左からスライド*/
+  .open .sp-nav {
+    left: 0;
+  }
+
+  ul{
+    margin-left: 50px;
+    list-style: none;
+  }
+
+  .list-item{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .online-shop > p{
+    margin: 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .online-shop{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .bag-img{
+    width: 5%;
+    margin: 0 20px 0 0;
+  }
+
+  .entry-form{
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #88CEB9;
+    background-color: #FFFFFF;
+    padding: 8px 10px;
+    text-align: center;
+    width: 30%;
+    margin-top: 35px;
+  }
+
+  /* header お仕事内容 */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 84%;
+    left: 52%;
+    display: block;
+    white-space: nowrap;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0;
+    z-index: 3;
+  }
+
+  /* header job */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 65%;
+    display: block;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0.8em;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0;
+    z-index: 4;
+  }
+
+  .sp-job-img1,.sp-job-img2,.sp-job-img3{
+    width: 100%;
+  }
+
+  .sp-job-img3{
+    margin: 500px 0 800px 0;
+  }
+
+  .c-section__title{
+    display: none;
+  }
+
+  .c-conteiner{
+    margin-top: 20px;
+  }
+
+  .sp-c-section__title1,
+  .sp-c-section__title2{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    color: #7A7A7A;
+  }
+
+  .sp-c-section__title1{
+    margin-top: 80px;
+  }
+
+  .sp-c-section__title2 > p{
+    margin: 0 0;
+  }
+
+  /* AWESOMEクリニック... */
+  .sp-c-section__title2{
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ピンクの四角 */
+  .pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -50%;
+    left: 51%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    z-index: 2;
+  }
+
+  
+  /* 仕事内容 */
+  .c-title{
+    font-family: Zen Maru Gothic;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: left;
+    color: #7A7A7A;
+  }
+  
+  .c-contents__inner{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .c-contents__inner__mid{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .c-colum-list{
+    margin: 0 0;
+    padding: 0 0;
+  }
+  
+  /* 仕事内容以下のテキスト */
+  .c-colum-item{
+    font-family: Zen Maru Gothic;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;  
+    color: #7A7A7A;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-image: url("../images/check-icon.svg"); 
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  
+  /* 細いブルーの下線 */
+  .shortblue-line{
+    background-color: #008FA0;
+    width: 55px;
+    height: 6px;
+    margin: 15px 0 0;
+  }
+  
+  .c-colum-list__mid{
+    margin: 0 0;
+    padding: 0 0;
+  }
+  
+  .c-colum-item__mid{
+    font-family: Zen Maru Gothic;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #008FA0;
+    list-style: none;
+    padding: 10px 0 10px 40px;
+    background-image: url("../images/check-icon.svg"); 
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 20px;
+  }
+  
+  /* 最後の１文 */
+  .sp-p-last-sentence{
+    font-family: Zen Maru Gothic;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #545454;
+    text-align: center;
+    margin: 80px 0 0;
+  }
+  
+  .large-img{
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ラストのピンク四角 */
+  .pink-square__bottom{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 100%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    z-index: 2;
+  }
+  .p-last-sentence{
+    display: none;
+  }
+
+}
+

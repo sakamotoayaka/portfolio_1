@@ -1,0 +1,38 @@
+  .p-header__top{ 
+    width: 100vw;
+    height: 88px;
+    background: #88CEB9B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .p-header__logoLeft{
+    margin-top: 10px;
+  }
+
+  .c-nav__list{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    color: #FFFFFF;
+  }
+
+  .p-nav__listItem{
+    list-style: none;
+    margin-left: 40px;
+    font-family: "Zen Maru Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .p-header__logoRight{
+    display: flex;
+    margin-left: 50px;
+  }
+
+ 

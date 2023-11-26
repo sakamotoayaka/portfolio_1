@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recuru サンプルサイト</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/entry.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Poppins:wght@800&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <header class="l-header" id="header">
+      <div class="p-header__top">
+        <div class="p-header__logoLeft">
+          <img class="c-awesome__logo" src="images/awesome-logo.png" alt="ロゴ">
+        </div>
+        <nav class="p-header__nav">
+          <ul class="c-nav__list">
+            <li class="p-nav__listItem">クリニック紹介</li>
+            <li class="p-nav__listItem">お仕事内容</li>
+            <li class="p-nav__listItem">採用情報</li>
+            <li class="p-nav__listItem">働きやすさ</li>
+            <li class="p-nav__listItem">人を知る</li>
+            <li class="p-nav__listItem">職場を知る</li>
+            <li class="p-nav__listItem">選考の流れ</li>
+          </ul>
+        </nav>
+        <div class="p-header__logoRight">
+          <img class="header-logo" src="images/header_bag.png" alt="ロゴ">
+        </div>
+      </div>
+      <div id="nav-wrapper" class="nav-wrapper">
+        <div class="hamburger" id="js-hamburger">
+          <span class="hamburger__line hamburger__line--1"></span>
+          <span class="hamburger__line hamburger__line--2"></span>
+          <span class="hamburger__line hamburger__line--3"></span>
+          <div class="menu">MENU</p>
+        </div>
+        <nav class="sp-nav">
+          <ul>
+            <li class="list-item">クリニック紹介</li>
+            <li class="list-item">お仕事内容</li>
+            <li class="list-item">採用情報</li>
+            <li class="list-item">働きやすさ</li>
+            <li class="list-item">人を知る</li>
+            <li class="list-item">職場を知る</li>
+            <li class="list-item">選考の流れ</li>
+            <li class="online-shop">
+              <img class="bag-img" src="images/header_bag.png" alt="バッグのアイコン">
+              <p>Online Shop</p>
+            </li>
+            <li class="entry-form">エントリーフォーム</li>
+          </ul>
+        </nav>
+      </div>    
+      <div class="c-kv__bg">
+        <img class="p-kv__bg" src="images/recruiting-top_img.png" alt="人の画像">
+        <img class="sp-p-kv__bg" src="sp-imges/sp-recruiting_top.png" alt="人の画像">
+        <div class="p-entry-logo__img">
+          <img class="entry-logo__img" src="images/entry-logo_img.png" alt="ロゴ">
+        </div>
+        <div class="c-kv__section__inner">
+          <p class="p-kv__section__inner-title">エントリー</p>
+          <p class="p-kv__section__inner-square">ENTRY</p>
+        </div>
+      </div>
+    </header>
+  </header>
+  <!-- main -->
+  <main>
+    <div class="l-main">
+      <div class="p-entry__wrap">
+        <div class="p-entry">必要事項にご記入の上送信してください</div>
+        <div class="sp-p-entry">必要事項にご記入の上<br>送信してください</div>
+        <p class="blue-line__entry-bottom"></p>
+        <div class="p-gray__text">全て必須項目です</div>
+      </div>
+      <div class="p-background__gray">
+        <div class="c-contact-form">
+          <div class="c-contact-form__wrap">
+            <div class="c-contact-form__left">
+              <p class="c-left__text">お名前</p>
+              <p class="blue-line"></p>
+            </div>
+            <input placeholder="御名前漢字">
+          </div>
+          <div class="c-contact-form__wrap">
+            <div class="c-contact-form__left">
+              <p class="c-left__text">お名前かな</p>
+              <p class="blue-line"></p>
+            </div>
+            <input placeholder="お名前かな">
+          </div>
+          <div class="c-contact-form__wrap">
+            <div class="c-contact-form__left">
+              <p class="c-left__text">日中の連絡先電話番号</p>
+              <p class="blue-line"></p>
+            </div>
+            <input placeholder="080-0000-0000">
+          </div>
+          <div class="c-contact-form__wrap">
+            <div class="c-contact-form__left">
+              <p class="c-left__text">メールアドレス</p>
+              <p class="blue-line"></p>
+            </div>
+            <input placeholder="sample@example.com">
+          </div>
+          <div class="c-contact-form__wrap">
+            <div class="c-contact-form__left">
+              <p class="c-left__text">ご住所</p>
+              <p class="blue-line"></p>
+            </div>
+            <textarea placeholder="sample@example.com"></textarea>
+          </div>
+          <div class="c-contact-form__wrap">
+            <div class="c-contact-form__left">
+              <p class="c-left__text">希望職種</p>
+              <p class="blue-line"></p>
+            </div>
+            <select name="select" class="select" required>
+              <option value="">正社員</option>
+              <option value="正社員">正社員</option>
+            </select>      
+          </div>
+          <div class="p-checkbox">
+            <input id="checkbox" class="checkbox" type="checkbox">
+            <label for="checkbox"><a href="">個人情報保護方針</a>に同意する</label>
+          </div>
+          <div class="contact-submit__wrap">
+            <input class="c-contact-submit" type="submit" value="確認画面へ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer id="footer"></footer>
+  <script src="./js/index.js"></script>
+  <script src="./js/hamburger.js"></script>
+</body>

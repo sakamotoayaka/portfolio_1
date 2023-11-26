@@ -1,0 +1,891 @@
+  /* ピンクの装飾 */
+  .p-center__pink-square{
+    background-color: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    margin: auto; 
+    margin-top: 80px;
+  }
+
+@media screen and (min-width: 769px) {
+   /* PC */
+   body{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+ /* headerの帯 */
+  .p-header__top{ 
+    width: 100%;
+    height: 14%;
+    background: #88CEB9B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .p-header__logoLeft{
+    margin-top: 10px;
+  }
+
+  .c-nav__list{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    color: #FFFFFF;
+  }
+
+  .p-nav__listItem{
+    list-style: none;
+    margin-left: 40px;
+    font-family: "Zen Maru Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .p-header__logoRight{
+    display: flex;
+    margin-left: 50px;
+  }
+
+  /* header 画像 */
+  .c-kv__bg{
+    position: relative;
+    z-index: 1;  
+  }
+
+  .p-kv__bg{
+    width: 100%;
+  }
+
+  /* pcで非表示 */
+  .sp-p-kv__bg{
+    display: none;
+  }
+
+  /* header 働きやすさ */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 77%;
+    left: 50%;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+    padding:0 0;
+    z-index: 4;
+  }
+
+  /* header reason */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 92%;
+    left: 50%;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0.8em;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 65%;
+    z-index: 4;
+  }
+ 
+  /* main */
+  .c-section{
+   width: 90%;
+   margin: 0 auto;
+  }
+
+ .c-sentence1 > p{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7A7A7A;
+    padding: 0 0;
+    margin: 100px 0 0 0;
+ }
+
+ .c-sentence2 > p{
+  font-family: Zen Maru Gothic;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #7A7A7A;
+  padding: 0 0;
+  margin: 50px 0 0 0;
+}
+
+  /* センターのブルーの下線 */
+ .blue-line__sentence-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin: auto;
+    margin-top: 10px;
+ }
+
+  /* 多くの女性スタッフが... */
+  .c-section__title1{
+    font-family: Zen Maru Gothic;
+    color: #7A7A7A;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: left; 
+    margin: 50px 0 0 80px;
+  }
+
+  /* ブルーの下線 */
+  .blue-line__section-bottom1{
+    background-color: #008FA0;
+    width: 55px;
+    height: 6px;
+    margin: 15px 0 0 80px;
+  }
+
+  
+  /* section1 */
+  /* 丸い画像 王冠を乗せる */
+  .c-img__wrap{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .reason__img{
+    width: 70%;
+  }
+  
+  /* 王冠1を固定 */
+  .crown-icon1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 21%;  
+    z-index: 2;
+  }
+  
+  /* カラムの横並び */
+  .c-first__colum{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 80px;
+    margin: 0 0;
+  }
+  
+  .c-first__colum-item{
+    width: 100%;
+  }
+  
+  /* 青字テキスト */
+  .c-colum__title{
+    font-family: Zen Maru Gothic;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: center;
+    color: #008FA0B2;  
+    margin: 40px 0 0;
+  }
+  
+  .c-colum__info{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: center;
+    color: #7A7A7A;
+    background-color: #EFF6F3;
+    border-radius: 15px;
+    padding: 25px 10px;   
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  /* ブルーの下線 */
+  .blue-line__info-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin: auto;
+    margin-top: -20px;
+  }
+  
+  /* グレー テキスト */
+  .c-colum__text{
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7A; 
+    text-align: left;
+    margin: auto;
+    margin-top: 48px; 
+    width: 70%;
+  }
+  
+  /* section2 relative*/
+  .c-secondary__wrap{
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;
+  }
+  
+  .reason_img4{
+    width: 100%;
+  }
+  
+  /* 働きやすさのポイント */
+  .c-section__title2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 13%;
+    left: 25%;
+    z-index: 2;
+  }
+
+  .c-section__title2 > p{
+    font-family: Zen Maru Gothic;
+    color: #7A7A7A;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left; 
+    margin: 0 0;
+  }
+  
+  /* ブルーの下線 */
+  .c-section__title2 > .blue-line__section-bottom2{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin-top: 15px; 
+  }
+  
+  /* カラムの位置調節 */
+  .c-secondary__colum{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 0;
+    width: 100%;
+  }
+  
+  .c-secondary__colum-item{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    width: 15%;
+    padding: 20px 40px;
+  }
+  
+  /* 青字タイトル */
+  .c-secondary__colum-title{
+    font-family: Zen Maru Gothic;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 35px;
+    white-space: nowrap;
+    text-align: center;   
+    color: #008FA0B2;
+    margin: 22px 0 0;
+  }
+
+  /* グレーテキスト */
+  .c-secondary__colum-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 22px 0 0 0;
+  }
+
+  /* 王冠をこのカラムに固定 */
+  .c-secondary__colum-item{
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* 王冠2の位置調節 */
+  .crown-icon2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 50%;
+    width: 20%;
+    z-index: 2;
+  }
+  
+  /* last section */
+  .p-interview{
+    font-family: Qwitcher Grypen;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 150px;
+    letter-spacing: 0em;
+    text-align: center; 
+    color: #E9E9E9;
+  }
+
+  /* ピンクの装飾ここに乗せる */
+  .gray-line{
+    position: relative;
+    background-color: #FAFAFA;
+    height: 90px;
+    z-index: 1;
+  }
+
+  /* ピンクの装飾 */
+  .pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    margin: 0 0;
+    z-index: 2;
+  }
+
+  .Tokyo-Hanako1,
+  .Tokyo-Hanak2,
+  .Tokyo-Hanako3{
+    width: 20%;
+  }
+
+  .p-interview__img{
+    text-align: center;
+  }
+
+  .interview__img{
+    width: 35%;
+  }
+
+
+  /* 画像の位置調節 */
+  .c-tertiary__wrap{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 120px 0;
+    width: 90%;
+    margin: auto;
+  }
+
+  /* PCで非表示 */
+  .sp-p-kv__bg,.sp-blue-line,
+  .sp-c-sentence1,.sp-reason_img4,
+  .sp-blue-line__sentence-bottom,
+  .sp-interview__img,.hamburger,.menu,.sp-nav{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* SP */
+  body{
+    max-width: 768px;
+    margin: 0 auto
+  }
+
+  /* SPで非表示 */
+  .p-header__nav,.p-header__logoRight,
+  .p-kv__bg,.reason_img4,.c-sentence1,
+  .p-interview{
+    display: none;
+  }
+
+  /* header */
+  /* ベースの画像 */
+  .sp-p-kv__bg{
+    width: 100%;
+  }
+
+  .c-kv__bg{
+    width: 100%;
+    height: 98%;
+    position: relative;
+    z-index: 1;  
+  }
+
+  /* awesome左ロゴ */
+  .c-awesome__logo{
+    width: 150%;
+    padding-left: 40px;
+  }
+
+  /* header上部の帯 */
+  .p-header__top{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 15%;
+    z-index: 3;
+  }
+
+  /* ハンバーガーメニュー */
+  .hamburger {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    height: 40px;
+    cursor: grab;
+    z-index: 3;
+  }
+  
+  .hamburger__line {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 5px;
+    right: 0;
+    border-radius: 2.5px;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+  }
+  
+  .hamburger__line--1 {
+    top: 1px;
+  }
+
+  .hamburger__line--2 {
+    top: 16px;
+  }
+
+  .hamburger__line--3 {
+    top: 32px;
+  }
+
+  /*ハンバーガーがクリックされたら*/
+  .open .hamburger__line--1 {
+    transform: rotate(-45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .open .hamburger__line--2 {
+    opacity: 0;
+  }
+
+  .open .hamburger__line--3 {
+    transform: rotate(45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .menu{
+    color: #FFFFFF;
+    margin: 40px 25px 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .sp-nav {
+    position: fixed;
+    left: -100%;
+    /*ハンバーガーがクリックされる前はWindow左側に隠す*/
+    top: 14%;
+    width: 78%;
+    /* 出てくるスライドメニューの幅 */
+    height: 100vh;
+    background-color: #88CEB9;
+    transition: all 0.5s;
+    z-index: 100;
+    overflow-y: auto;
+    /* メニューが多くなったらスクロールできるように */
+  }
+  
+  /*ハンバーガーがクリックされたら左からスライド*/
+  .open .sp-nav {
+    left: 0;
+  }
+
+  ul{
+    margin-left: 50px;
+    list-style: none;
+  }
+
+  .list-item{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .online-shop > p{
+    margin: 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .online-shop{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .bag-img{
+    width: 5%;
+    margin: 0 20px 0 0;
+  }
+
+  .entry-form{
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #88CEB9;
+    background-color: #FFFFFF;
+    padding: 8px 10px;
+    text-align: center;
+    width: 30%;
+    margin-top: 35px;
+  }
+
+  /* header クリニック紹介 */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 84%;
+    left: 55%;
+    display: block;
+    white-space: nowrap;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0;
+    z-index: 4;
+  }
+
+  /* header about */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 65%;
+    display: block;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0.8em;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    width: 72%;
+    padding: 10px 0;
+    z-index: 4;
+  }
+
+  /* main */
+  .sp-c-sentence1 > p{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 55px;
+    text-align: center;
+    color: #7A7A7A;
+    margin: 0 0;
+  }
+  
+  .sp-c-sentence1{
+    margin-top: 50px;
+  }
+  
+  .sp-blue-line__sentence-bottom{
+    width: 60px;
+    height: 6px;
+    background-color: #008FA0;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  
+  .c-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  /*  多くの女性スタッフが... */
+  .c-section__title1{
+    font-family: Zen Maru Gothic;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: left;
+    color: #7A7A7A;    
+  }
+
+  /* ブルーの下線 */
+  .sp-blue-line__section-bottom{
+    background-color: #008FA0;
+    width: 55px;
+    height: 6px;
+    margin: 15px 0 0 0;
+  }
+
+  .c-img__wrap{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .reason__img{
+    width: 60%;
+  }
+
+  /* 王冠1を固定 */
+  .crown-icon1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 26%;  
+    z-index: 2;
+    width: 13%;
+  }
+
+  .c-first__colum-item{
+    margin-top: 40px;
+  }
+
+  /* 青字テキスト */
+  .c-colum__title{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #008FA0B2;  
+    margin: 40px 0 0;
+  }
+
+  .c-colum__info{
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    width: 180px;
+    color: #7A7A7A;
+    background: #EFF6F3;
+    border-radius: 15px;
+    margin: auto;
+    padding: 40px 50px;   
+  }
+
+  .blue-line__info-bottom{
+    width: 60px;
+    height: 6px;
+    background-color: #008FA0;
+    margin: auto;
+    margin-top: -25px;
+  }
+
+  .c-colum__text{
+    font-family: Noto Sans JP;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: auto;
+    width: 80%;
+    margin-top: 60px;
+  }
+
+  /* section2 */
+  .c-secondary__wrap{
+    position: relative;
+    z-index: 1;
+    margin-top: 90px;
+  }
+  
+  .sp-reason_img4{
+    width: 100%;
+    display: block;
+    line-height: 1;
+  }
+  
+  /* 働きやすさのポイント */
+  .c-section__title2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 16%;
+    left: 50%;
+    z-index: 2;
+  }
+  
+  .c-section__title2 > p{
+    font-family: Zen Maru Gothic;
+    color: #7A7A7A;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center; 
+    white-space: nowrap;
+    margin: 0 0;
+  }
+  
+  /* ブルーの下線 */
+  .c-section__title2 > .blue-line__section-bottom2{
+    background-color: #008FA0;
+    width: 100px;
+    height: 8px;
+    margin: 0 auto; 
+    margin-top: 35px;
+  }
+  
+  /* 画像4から下 */
+  .c-secondary__colum{
+    background-color: #FAFAFA;
+    width: 100%;
+    padding: 50px 0 100px 0;
+    margin: auto;
+  }
+
+  .c-secondary__colum-item{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    width: 50%;
+    padding: 50px 20px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  /* 青字タイトル */
+  .c-secondary__colum-title{
+    font-family: Zen Maru Gothic;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 35px;
+    white-space: nowrap;
+    text-align: center;   
+    color: #008FA0B2;
+    margin: 0 0;
+  }
+
+  /* グレーテキスト */
+  .c-secondary__colum-text{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 20px 0 0 0;
+  }
+
+  /* 王冠をこのカラムに固定 */
+  .c-secondary__colum-item{
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* 王冠2の位置調節 */
+  .crown-icon2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -5%;
+    left: 50%;
+    width: 20%;
+    z-index: 2;
+  }
+
+  /* last section */
+  .c-sentence2{
+    margin-top: 150px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .c-sentence2 > p{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #7A7A7A;
+    margin: 0 0;
+  }
+
+  /* ピンクの装飾 */
+  .sp-pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -180%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    margin: 0 0;
+    z-index: 2;
+  }
+
+  .p-interview__img{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .interview__img{
+    width: 60%;
+  }
+
+  .Tokyo-Hanako1,
+  .Tokyo-Hanako2,
+  .Tokyo-Hanako3{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  /* 画像の位置調節 */
+  .c-tertiary__wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 120px 0;
+  }
+}
+
+  

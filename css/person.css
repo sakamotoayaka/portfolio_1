@@ -1,0 +1,676 @@
+  .c-sentence1{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7A7A7A;
+    padding-top: 100px;
+    margin: auto;
+    background-color: #FAFAFA;
+  }
+  
+  .c-sentence1 > p{
+    margin: 0 0;
+  }
+
+   /* ブルーの下線 */
+  .blue-line__sentence-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  /* ブルーの下線 */
+  .c-title__bottom-blueline{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin: 13px 0 0;
+  }
+
+  .c-sentence2{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+    color: #7A7A7A;
+    padding-top: 60px;
+  }
+
+  .c-sentence2 > p{
+    margin: 0 0;
+  }
+
+@media screen and (min-width: 769px) {
+  /* PC */
+  body{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  /* headerの帯*/
+  .p-header__top{ 
+    width: 100%;
+    height: 11%;
+    background: #88CEB9B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .p-header__logoLeft{
+    margin-top: 10px;
+  }
+
+  .c-nav__list{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    color: #FFFFFF;
+  }
+
+  .p-nav__listItem{
+    list-style: none;
+    margin-left: 40px;
+    font-family: "Zen Maru Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .p-header__logoRight{
+    display: flex;
+    margin-left: 50px;
+  }
+
+  /* header 画像 */
+  .c-kv__bg{
+    position: relative;
+    z-index: 1;  
+  }
+
+  .p-kv__bg{
+    width: 100%;
+    display: block;
+    line-height: 1;
+  }
+
+  /* pcで非表示 */
+  .sp-p-kv__bg,.hamburger,.menu,.sp-nav{
+    display: none;
+  }
+ 
+  /* header 人を知る */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 77%;
+    left: 50%;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+    padding:0 0;
+    z-index: 4;
+  }
+ 
+  /* header person */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 93%;
+    left: 50%;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0.8em;
+    background-color: #FAFAFA;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 65%;
+    z-index: 4;
+  }
+
+  /* main */
+  .c-sentence1{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #7A7A7A;
+    padding-top: 100px;
+    margin: auto;
+    background-color: #FAFAFA;
+  }
+
+  .c-sentence1 > p{
+    margin: 0 0;
+  }
+
+  /* 背景のグレー */
+  .p-background__gray{
+    width: 100%;
+    height: 1600px;
+    position: relative;
+    background-color: #FAFAFA;
+    z-index: 1;
+  }
+
+  /* absolute */
+  .c-description{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 52%;
+    width: 80%;
+    margin: auto;
+    padding: 0 0;
+    z-index: 2;
+  }
+
+  /* c-section1 */
+  .c-section1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+  }
+
+  .p-img__wrap{
+    height: 100%;
+  }
+
+  /* 山田さんの説明 */
+  .p-img__right-item{
+    color: #7A7A7A;
+    width: 100%;
+  }
+
+  .u-staff{
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin: 0 0 0;
+    padding-top: 5px;
+  }
+
+  .u-name{
+  font-family: Noto Sans JP;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: left;  
+  margin: 8px 0;
+  }
+
+  .u-career{
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;  
+    margin: 0 0 0;
+    padding-bottom: 5px;
+  }
+
+  .p-img__right-title{
+    border-left: solid 3px;
+    border-color: #f0a0c7;
+    padding-left: 35px;
+  }
+
+  .p-img__right-text{
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;  
+    margin-top: 30px;
+  }
+
+  .c-section__title{
+    font-family: Zen Maru Gothic;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 30px 0 0;
+  }
+
+  .c-section__text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left; 
+    color: #7A7A7A; 
+    margin: 35px 0;
+  }
+ 
+   /* c-sentence2 */
+  .p-interview{
+    font-family: Qwitcher Grypen;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 150px;
+    text-align: center; 
+    color: #E9E9E9;
+  }
+
+  .p-interview__img{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .interview__img{
+    width: 40%;
+  }
+
+   /* ピンクの装飾を乗せるところ */
+  .c-sentence2{
+    position: relative;
+    padding-top: 100px;
+  }
+
+  /* ピンクの装飾 */
+  .pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    z-index: 3;
+  }
+
+  /* インタビュー画像の位置調節 */
+  .c-tertiary__wrap{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 50px 0 120px 0;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  /* SP */
+  body{
+    max-width: 768px;
+    margin: 0 auto
+  }
+
+  .p-header__nav,.p-header__logoRight,
+  .p-kv__bg{
+    display: none;
+  }
+
+  .c-sentence1{
+    padding-top: 90px;
+  }
+
+  .c-sentence2{
+    padding-top: 100px;
+  }
+
+  .c-section2{
+    margin: 0 60px;
+  }
+
+  /* ピンクの装飾を乗せるところ */
+  .c-sentence2{
+    position: relative;
+    padding-top: 100px;
+  }
+
+ /* ピンクの装飾 */
+  .pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    z-index: 3;
+  }
+
+  /* 背景のグレー */
+  .p-background__gray{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #FAFAFA;
+  }
+
+  /* ベースの画像 */
+  .sp-p-kv__bg{
+    width: 100%;
+    display: block;
+    line-height: 1;
+  }
+
+  .c-kv__bg{
+    width: 100%;
+    height: 98%;
+    position: relative;
+    z-index: 1;  
+  }
+
+  /* awesome左ロゴ */
+  .c-awesome__logo{
+    width: 110%;
+    padding-left: 40px;
+  }
+
+  /* header上部の帯 */
+  .p-header__top{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 14%;
+  }
+
+  /* ハンバーガーメニュー */
+  .hamburger {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    height: 40px;
+    cursor: grab;
+    z-index: 3;
+  }
+  
+  .hamburger__line {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 5px;
+    right: 0;
+    border-radius: 2.5px;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+  }
+  
+  .hamburger__line--1 {
+    top: 1px;
+  }
+
+  .hamburger__line--2 {
+    top: 16px;
+  }
+
+  .hamburger__line--3 {
+    top: 32px;
+  }
+
+  /*ハンバーガーがクリックされたら*/
+  .open .hamburger__line--1 {
+    transform: rotate(-45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .open .hamburger__line--2 {
+    opacity: 0;
+  }
+
+  .open .hamburger__line--3 {
+    transform: rotate(45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .menu{
+    color: #FFFFFF;
+    margin: 40px 25px 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .sp-nav {
+    position: fixed;
+    left: -100%;
+    /*ハンバーガーがクリックされる前はWindow左側に隠す*/
+    top: 14%;
+    width: 78%;
+    /* 出てくるスライドメニューの幅 */
+    height: 100vh;
+    background-color: #88CEB9;
+    transition: all 0.5s;
+    z-index: 100;
+    overflow-y: auto;
+    /* メニューが多くなったらスクロールできるように */
+  }
+  
+  /*ハンバーガーがクリックされたら左からスライド*/
+  .open .sp-nav {
+    left: 0;
+  }
+
+  ul{
+    margin-left: 50px;
+    list-style: none;
+  }
+
+  .list-item{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .online-shop > p{
+    margin: 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .online-shop{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .bag-img{
+    width: 5%;
+    margin: 0 20px 0 0;
+  }
+
+  .entry-form{
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #88CEB9;
+    background-color: #FFFFFF;
+    padding: 8px 10px;
+    text-align: center;
+    width: 30%;
+    margin-top: 35px;
+  }
+
+  /* header 人を知る */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 48%;
+    display: block;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 0;
+    z-index: 4;
+  }
+
+  /* header person */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 96%;
+    left: 64%;
+    display: block;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0.8em;
+    background-color: #FAFAFA;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    width: 72%;
+    padding: 10px 0;
+    z-index: 4;
+  }
+
+  .person-yamada__img{
+    width: 100%;
+    margin-top: 90px;
+  }
+  
+  .p-img__right-item{
+    width: 90%;
+    color: #7A7A7A;
+  }
+
+  .u-staff{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    margin: 0 0 0;
+    padding-top: 5px;
+  }
+
+  .u-name{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: left;  
+    margin: 8px 0;
+  }
+
+  .u-career{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;  
+    margin: 0 0 0;
+    padding-bottom: 5px;
+  }
+
+  /* 山田さんの説明文 */
+  .p-img__right-item{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .p-img__right-title{
+    border-left: solid 3px;
+    border-color: #f0a0c7;
+    padding-left: 35px;
+  }
+
+  /* 山田さん 細かいテキスト */
+  .p-img__right-text{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 30px 0;
+    text-align: left;
+    white-space: normal;
+  }
+
+  /* 経歴 */
+  .c-section__title{
+    font-family: Zen Maru Gothic;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 0 0;
+  }
+
+  /* 経歴の細かいテキスト */
+  .c-section__text{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left; 
+    color: #7A7A7A; 
+    padding: 40px 0 80px 0;
+    margin: 0 0;
+  }
+
+  
+  .p-interview{
+    font-family: Qwitcher Grypen;
+    text-align: center; 
+    color: #E9E9E9;
+    font-size: 180px;
+    line-height: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .p-interview__img{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .interview__img{
+    width: 50%;
+  }
+
+  .c-tertiary__wrap{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+  
+  .Tokyo-Hanako1{
+    display: none;
+  }
+
+  .Tokyo-Hanako2,
+  .Tokyo-Hanako3{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+}

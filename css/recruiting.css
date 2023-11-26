@@ -1,0 +1,746 @@
+  .p-about-recruitment__text, 
+  .c-section__title{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: center;
+    color: #7A7A7A;
+    margin: 0 0;
+  }
+
+  .p-recruitment{
+    width: 100%;
+    background-color: #FAFAFA; 
+    padding-top: 80px; 
+  }
+
+@media screen and (min-width: 769px) {
+  /* PC */
+  body{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  /* headerの帯 */
+  .p-header__top{ 
+    width: 100%;
+    height: 6%;
+    background: #88CEB9B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .p-header__logoLeft{
+    margin-top: 10px;
+  }
+
+  .c-nav__list{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    color: #FFFFFF;
+  }
+
+  .p-nav__listItem{
+    list-style: none;
+    margin-left: 40px;
+    font-family: "Zen Maru Gothic";
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .p-header__logoRight{
+    display: flex;
+    margin-left: 50px;
+  }
+
+  /* header 画像 */
+  .c-kv__bg{
+    position: relative;
+    z-index: 1;
+  }
+
+  .p-kv__bg{
+    width: 100%;
+    display: block;
+    line-height: 1;
+  }
+
+  /* pcで非表示 */
+  .sp-p-kv__bg,.sp-c-description__text,
+  .hamburger,.menu,.sp-nav,.sp-img__wrap{
+    display: none;
+  }
+ 
+  .p-recruiting-logo__img{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 55%;
+    left: 42%;
+    z-index: 3;
+  }
+
+  .recruiting-logo__img{
+    width: 115%;
+  }
+ 
+  /* header 採用情報 */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 76%;
+    left: 50%;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+    padding:0 0;
+    z-index: 4;
+  }
+
+  /* header recruiting */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 93%;
+    left: 50%;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    letter-spacing: 0.8em;
+    background-color: #FAFAFA;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 65%;
+    z-index: 4;
+  }
+
+  /* main */
+  /* ブルーの下線 */
+  .blue-line__recruitment-bottom,
+  .blue-line__section-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .p-recruitment{
+    width: 100%;
+    background-color: #FAFAFA; 
+    padding-top: 80px; 
+  }
+  
+  /* 背景のグレー */
+  .p-background__gray{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    background-color: #FAFAFA;
+    z-index: 1;
+  }
+
+  .c-description{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 55%;
+    left: 50%;
+    margin: 0 auto;
+    padding-bottom: 140px;
+    z-index: 2;
+    width: 80%;
+  }
+
+  .c-description__wrap{
+    display: flex;
+    align-items: top;
+    gap: 150px;
+    padding-bottom: 70px;
+  }
+
+  .c-description__title{
+    font-family: Zen Maru Gothic;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+    color: #7A7A7A;  
+    margin: 0 0;
+  }
+
+  /* ブルーの下線 */
+  .blue-line__title-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin-top: 10px;
+  }
+
+  .c-description__text{
+    font-family: Zen Maru Gothic;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 43px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 0 0;
+  }
+
+  .c-section__title{
+    padding-top: 80px;
+  }
+
+  /* table */
+  th , td{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    color: #7A7A7A;
+  }
+
+  table{
+    width: 100%;
+    margin: 50px 0;
+    border-collapse: collapse;
+  }
+
+  tr{
+    border: 1px solid #999999;
+  }
+
+  th{
+    width: 35%;
+    padding: 50px;
+    background-color: #F3F3F3;
+  }
+
+  td{
+    width: 65%;
+    padding-left: 30px;
+  }
+
+  .empty{
+    height: 400px;
+  }
+
+  /* テーブルから下 */
+  .c-section{
+    width: 90%;
+    margin:  0 auto;
+  }
+
+  .c-section__inner__wrap{
+    padding: 40px 0 200px 0; 
+  }
+
+  .c-section__inner{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+  }
+
+  .c-step,.c-title{
+    font-family: Zen Maru Gothic;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7A;
+  }
+
+  .c-title{
+    width: 140px;
+  }
+
+  .c-text{
+    width: 489px;
+  }
+
+  .c-step , .c-title ,.c-text{
+    margin-top: 70px;
+  }
+
+  /* ブルーの下線 */
+  .blue-line__step-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin-top: 8px;
+  }
+
+  .c-text{
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7A7A7A;  
+  }
+
+  /* ピンクの装飾を乗せるところ */ 
+  .c-section__title-wrap{
+    position: relative;
+    z-index: 1;
+  }
+
+   /* ピンクの装飾 */
+  .pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    margin: 0 0;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* SP */
+  body{
+    max-width: 768px;
+    margin: 0 auto
+  }
+
+  /* SPで非表示 */
+  .p-header__nav,.p-header__logoRight,
+  .p-kv__bg,.c-description__text{
+    display: none;
+  }
+
+  /* header */
+  /* ベースの画像 */
+  .sp-p-kv__bg{
+    width: 100%;
+  }
+
+  .c-kv__bg{
+    width: 100%;
+    height: 98%;
+    position: relative;
+    z-index: 1;  
+    display: block;
+    line-height: 1;
+  }
+
+  /* awesome左ロゴ */
+  .c-awesome__logo{
+    width: 120%;
+    padding-left: 40px;
+  }
+
+  /* header上部の帯 */
+  .p-header__top{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 14%;
+    z-index: 2;
+  }
+
+  /* ハンバーガーメニュー */
+  .hamburger {
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    height: 40px;
+    cursor: grab;
+    z-index: 3;
+  }
+  
+  .hamburger__line {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 5px;
+    right: 0;
+    border-radius: 2.5px;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+  }
+  
+  .hamburger__line--1 {
+    top: 1px;
+  }
+
+  .hamburger__line--2 {
+    top: 16px;
+  }
+
+  .hamburger__line--3 {
+    top: 32px;
+  }
+
+  /*ハンバーガーがクリックされたら*/
+  .open .hamburger__line--1 {
+    transform: rotate(-45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .open .hamburger__line--2 {
+    opacity: 0;
+  }
+
+  .open .hamburger__line--3 {
+    transform: rotate(45deg);
+    top: 11px;
+    right: 22px;
+  }
+
+  .menu{
+    color: #FFFFFF;
+    margin: 40px 25px 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .sp-nav {
+    position: fixed;
+    left: -100%;
+    /*ハンバーガーがクリックされる前はWindow左側に隠す*/
+    top: 14%;
+    width: 78%;
+    /* 出てくるスライドメニューの幅 */
+    height: 100vh;
+    background-color: #88CEB9;
+    transition: all 0.5s;
+    z-index: 100;
+    overflow-y: auto;
+    /* メニューが多くなったらスクロールできるように */
+  }
+  
+  /*ハンバーガーがクリックされたら左からスライド*/
+  .open .sp-nav {
+    left: 0;
+  }
+
+  ul{
+    margin-left: 50px;
+    list-style: none;
+  }
+
+  .list-item{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  .online-shop > p{
+    margin: 0 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .online-shop{
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .bag-img{
+    width: 5%;
+    margin: 0 20px 0 0;
+  }
+
+  .entry-form{
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #88CEB9;
+    background-color: #FFFFFF;
+    padding: 8px 10px;
+    text-align: center;
+    width: 30%;
+    margin-top: 35px;
+  }
+
+  /* recruitingロゴ */
+  .p-recruiting-logo__img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 54%;
+    left: 42%;
+  }
+
+  .recruiting-logo__img{
+    width: 130%;
+  }
+
+  /* header 採用情報 */
+  .p-kv__section__inner-title{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 84%;
+    left: 47%;
+    color: #FFFFFF;
+    font-family: Zen Maru Gothic;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 0;
+    z-index: 4;
+  }
+
+  /* header recruiting */
+  .p-kv__section__inner-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 96%;
+    left: 64%;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.6em;
+    background-color: #FAFAFA;
+    color: #333333;
+    text-align: center;
+    margin: 0 auto;
+    width: 72%;
+    padding: 10px 0;
+    z-index: 4;
+  }
+
+  /* main */
+  .p-about-recruitment__text, 
+  .c-section__title{
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: center;
+    color: #7A7A7A;
+    margin: 0 0;
+  }
+
+  .c-description__title{
+    font-family: Zen Maru Gothic;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    color: #7A7A7A;
+  }
+
+  /* ブルーの下線 */
+  .blue-line__recruitment-bottom,
+  .blue-line__section-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  /* 背景のグレー */
+  .p-background__gray{
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    background-color: #FAFAFA;
+    z-index: 1;
+  }
+
+  /* グレーに乗せるもの */
+  .c-description{
+    position: absolute;
+    transform: translate(-50%, -50%);;
+    top: 55%;
+    left: 50%;
+    padding-bottom: 140px;
+    z-index: 2;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* ホスピタリティ精神に溢れる... */
+  .sp-c-description__text{
+    font-family: Zen Maru Gothic;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 42px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 40px 0 80px 20px;
+  }
+
+  /* ブルーの下線 */
+  .blue-line__title-bottom{
+    background-color: #008FA0;
+    width: 60px;
+    height: 6px;
+    margin-top: 20px;
+  }
+
+  /* table */
+  tr{
+    border: 1px solid #999999;
+  }
+
+  th{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #7A7A7A;
+    padding: 20px 20px;
+    background-color: #F3F3F3;
+  }
+
+  td{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #7A7A7A;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  table{
+    width: 100%;
+    margin: 50px 0;
+    border-collapse: collapse;
+  }
+
+  th,td{
+    display: block;
+    text-align: center;
+  }
+
+  .empty{
+    display: none;
+  }
+
+  /* ピンクの装飾を乗せるところ */ 
+  .c-section__title-wrap{
+    margin-bottom: 200px;
+    position: relative;
+    z-index: 1;
+  }
+
+   /* ピンクの装飾 */
+  .pink-square{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -115%;
+    left: 50%;
+    background: rgba(240, 160, 199, 1);
+    width: 46px;
+    height: 49px;
+    margin: 0 0;
+    z-index: 2;
+  }
+
+  .c-section{
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+
+  .c-section__inner{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+  }
+
+  .c-step{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #7A7A7A;
+  }
+
+  /* STEPの下 ブルーライン */
+  .blue-line__step-bottom{
+    width: 60px;
+    height: 6px;
+    background-color: #008FA0;
+    margin: 13px 0 0;
+  }
+
+  .c-title{ 
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    color: #7A7A7A;
+  }
+
+  /* 画像の大きさ調節 */
+  .sp-img__wrap{
+    text-align: center;
+  }
+
+  .sp-c-circle__img{
+    margin-top: 30px;
+  }
+
+  /* 画像下テキスト */
+  .sp-c-text{
+    font-family: Noto Sans JP;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: left;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #7A7A7A;
+  }
+
+  .sp-recruiting__img1,
+  .sp-recruiting__img2,
+  .sp-recruiting__img3{
+    width: 45%;
+  }
+
+  .c-circle__img,
+  .c-text{
+    display: none;
+  }
+
+}
+
+
+ 
